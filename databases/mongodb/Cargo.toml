@@ -1,0 +1,9 @@
+[package]
+name = "db-mongo"
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+actix-web.workspace = true
+mongodb = "3"
+serde.workspace = true

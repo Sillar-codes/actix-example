@@ -1,0 +1,16 @@
+[package]
+name = "juniper-advanced"
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+actix-web.workspace = true
+actix-cors.workspace = true
+juniper = "0.16"
+mysql = "24"
+r2d2 = "0.8"
+r2d2_mysql = "24"
+dotenvy.workspace = true
+env_logger.workspace = true
+log.workspace = true
+uuid.workspace = true

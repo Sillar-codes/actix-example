@@ -1,0 +1,11 @@
+[package]
+name = "juniper-example"
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+actix-web.workspace = true
+actix-cors.workspace = true
+juniper = "0.16"
+env_logger.workspace = true
+log.workspace = true

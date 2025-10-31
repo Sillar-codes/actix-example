@@ -1,0 +1,10 @@
+[package]
+name = "tls-openssl"
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+actix-web = { workspace = true, features = ["openssl"] }
+env_logger.workspace = true
+log.workspace = true
+openssl.workspace = true

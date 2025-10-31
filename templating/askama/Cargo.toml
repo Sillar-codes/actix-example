@@ -1,0 +1,13 @@
+[package]
+name = "templating-askama"
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+actix-web.workspace = true
+askama = "0.12"
+env_logger.workspace = true
+log.workspace = true
+
+[build-dependencies]
+askama = "0.12"

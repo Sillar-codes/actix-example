@@ -1,0 +1,8 @@
+[package]
+name = "form-example"
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+actix-web.workspace = true
+serde.workspace = true

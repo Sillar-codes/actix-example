@@ -1,0 +1,12 @@
+[package]
+name = "rustls-example"
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+actix-web = { workspace = true, features = ["rustls-0_23"] }
+actix-files.workspace = true
+
+env_logger.workspace = true
+log.workspace = true
+rustls.workspace = true

@@ -1,0 +1,25 @@
+[package]
+name = "websocket"
+edition.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "websocket-server"
+path = "src/main.rs"
+
+[[bin]]
+name = "websocket-client"
+path = "src/client.rs"
+
+[dependencies]
+actix-files.workspace = true
+actix-web.workspace = true
+actix-ws.workspace = true
+awc.workspace = true
+
+env_logger.workspace = true
+futures-util = { workspace = true, features = ["sink"] }
+log.workspace = true
+ractor = { version = "0.15", default-features = false }
+tokio = { workspace = true, features = ["full"] }
+tokio-stream.workspace = true

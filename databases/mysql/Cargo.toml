@@ -1,0 +1,13 @@
+[package]
+name = "mysql"
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+actix-web.workspace = true
+derive_more = { workspace = true, features = ["display", "error", "from"] }
+dotenvy.workspace = true
+env_logger.workspace = true
+log.workspace = true
+mysql = "24"
+serde.workspace = true

@@ -1,0 +1,18 @@
+[package]
+name = "websocket-example"
+edition.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "websocket-chat-server"
+path = "src/main.rs"
+
+[dependencies]
+actix.workspace = true
+actix-files.workspace = true
+actix-web.workspace = true
+actix-web-actors.workspace = true
+
+env_logger.workspace = true
+log.workspace = true
+rand.workspace = true
